@@ -1,0 +1,19 @@
+changes to comply with PEP8
+    Modules should have short, all-lowercase names. 
+    Underscores can be used in the module name if it improves readability. 
+    Python packages should also have short, all-lowercase names, although the use of underscores is discouraged.
+    - Make the package later
+
+    Class names should normally use the CapWords convention.
+    The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable.
+    Note that there is a separate convention for builtin names: most builtin names are single words (or two words run together), with the CapWords convention used only for exception names and builtin constants.
+
+    Because exceptions should be classes, the class naming convention applies here.
+    However, you should use the suffix “Error” on your exception names (if the exception actually is an error).
+
+    Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+    Variable names follow the same convention as function names.
+    mixedCase is allowed only in contexts where that’s already the prevailing style (e.g. threading.py), to retain backwards compatibility.
+
+    Multi-line docstrings consist of a summary line just like a one-line docstring, followed by a blank line, followed by a more elaborate description. 
+    The summary line may be used by automatic indexing tools; it is important that it fits on one line and is separated from the rest of the docstring by a blank line
